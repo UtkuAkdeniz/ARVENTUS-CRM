@@ -1,0 +1,89 @@
+#loginbody {
+    background-image: url('Ýmage/loginyeni3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Arka planýn sabit kalmasýný saðlar */
+    margin: 0; /* Sayfa kenar boþluklarýný kaldýrýr */
+    padding: 0; /* Sayfa içeriðinin kenar boþluklarýný kaldýrýr */
+}
+
+.right-container {
+    position: fixed;
+    z-index: 1;
+    height: 125vh;
+    width: 48%;
+    right: -10vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: rotate(13deg);
+    top: -12vh;
+}
+
+.custom-textbox {
+    border: none; /* Tüm kenar çizgilerini kaldýrýr */
+    border-bottom: 2px solid #ffffff; /* Beyaz alt kenara çizgi ekler */
+    background-color: transparent; /* Arka planý saydam yapar */
+}
+
+    .custom-textbox:hover {
+        border-bottom-color: #007bff; /* Hover durumunda alt çizgi rengini deðiþtirir */
+    }
+
+    .custom-textbox .input-group-prepend .input-group-text img {
+        background-color: transparent; /* Görselin arka planýný saydam yapar */
+    }
+
+    .custom-textbox::placeholder {
+        color: #ffffff; /* Textbox renk kodu */
+    }
+
+
+
+
+
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+}
+
+    .btn:hover svg {
+        stroke-dashoffset: -480;
+    }
+
+.btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+.pdffile {
+    width: 100%;
+    margin: 1rem;
+}
+
+.btnpdfekle {
+    width: 175px;
+    text-decoration: none;
+    border-radius: 1rem;
+    height: 51px;
+    border: none;
+    margin-top: 26vh;
+    margin-right: 0.5rem;
+    color: #e60000;
+    position: relative;
+}
+
+

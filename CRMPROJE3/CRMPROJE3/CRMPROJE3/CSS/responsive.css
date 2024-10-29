@@ -1,0 +1,36 @@
+@media (min-width: 1920px) {
+
+    .pdfImageButton{
+    margin-right: 80vh;
+    }
+
+
+}
+
+
+/* 1536x768 ekran boyutlarý için stil tanýmlarý */
+@media only screen and (max-width: 1536px) and (max-height: 864px) {
+
+    .excelImageButton {
+        margin-right: 112vh;
+    }
+
+    .excelbutonstok{
+        margin-right:10vh;
+    }
+
+}
+
+@media (min-width: 1920px) {
+
+    .excelImageButton {
+        margin-right: 85vh;
+    }
+}
+
+@media only screen and (max-width: 1536px) and (max-height: 768px) {
+
+    .excelImageButton {
+        margin-right: 110vh;
+    }
+}
